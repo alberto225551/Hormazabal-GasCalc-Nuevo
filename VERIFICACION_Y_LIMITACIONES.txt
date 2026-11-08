@@ -1,0 +1,12 @@
+PROYECTO CORREGIDO - Hormazábal GasCalc
+- Se conserva applicationId com.ahmgas.gascalc y versión 1.1.4.
+- Se conserva la interfaz HTML original incluida en el ZIP de origen.
+- GitHub Actions ya no ejecuta android-actions/setup-android@v3, paso que falló.
+- Java WebView permite seleccionar archivos y descargar URL HTTPS.
+LIMITACIONES IMPORTANTES:
+- No se ha compilado APK en este entorno; GitHub Actions debe confirmar el resultado.
+- Las descargas blob: y data: del HTML no están implementadas por el puente nativo.
+- La generación PDF, el guardado y los planos deben probarse en un teléfono.
+- La APK debug puede tener firma diferente de la instalada: NO instalar encima sin verificar.
+- No desinstalar la aplicación existente ni borrar sus datos.
+- Los cálculos de gas requieren validación profesional/normativa.

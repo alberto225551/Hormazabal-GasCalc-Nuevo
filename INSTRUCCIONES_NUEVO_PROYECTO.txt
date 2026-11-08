@@ -1,0 +1,10 @@
+HORMÁZABAL GASCALC - PROYECTO NUEVO DE COMPILACIÓN
+
+Este ZIP conserva los archivos de aplicación recuperados de Hormazabal_GasCalc_1_1_FINAL_Android.zip y reemplaza el workflow fallido por uno que utiliza el Android SDK preinstalado en GitHub Actions.
+
+1. Crear repositorio nuevo y vacío en GitHub.
+2. Extraer este ZIP y subir su contenido conservando la estructura .github/workflows.
+3. En Actions, ejecutar Compilar Hormazabal GasCalc Android o esperar el push.
+4. Descargar el artifact Hormazabal-GasCalc-APK-prueba si la compilación termina correctamente.
+
+IMPORTANTE: No instalar la APK de prueba sobre la aplicación original sin verificar coincidencia de firma. El identificador del proyecto es com.ahmgas.gascalc. Este ZIP NO incluye APK compilada ni garantiza compatibilidad de firma.
